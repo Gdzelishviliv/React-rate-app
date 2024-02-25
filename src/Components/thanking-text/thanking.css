@@ -1,0 +1,20 @@
+.text-content-thanking h1{
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 35.45px;
+    font-family: 'overpass';
+    font-weight: 700;
+}
+.text-content-thanking p{
+    color: #969FAD;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.text-content-thanking{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 7px;
+}

@@ -1,0 +1,46 @@
+.rating-styles{
+    display: flex;
+    flex-direction: column;
+}
+.rate-nums{
+    display: flex;
+    gap: 22px;
+}
+.rate-nums span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    background-color: #262E38;
+    border-radius: 100%;
+    color: #7C8798;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.rate-nums span:hover{
+    background-color: #7C8798;
+    color: #FFFFFF;
+}
+.rate-nums span:active {
+  background-color: #FC7614;
+}
+
+.submit-button{
+    margin-top: 32px;
+    background-color: #FC7614;
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border:transparent;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.submit-button:hover{
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
