@@ -21,12 +21,12 @@ const Rating = ({ onSubmit }) => {
       <div className="rating-styles">
         <div className="rate-nums">
           {[1, 2, 3, 4, 5].map((value) => (
-            <span
+            <button
               key={value}
               onClick={() => handleRatingChange(value)}
             >
               {value}
-            </span>
+            </button>
           ))}
         </div>
         <button className="submit-button" onClick={handleSubmit}>Submit</button>

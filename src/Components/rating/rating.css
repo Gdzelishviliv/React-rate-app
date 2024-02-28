@@ -6,23 +6,24 @@
     display: flex;
     gap: 22px;
 }
-.rate-nums span{
+.rate-nums button{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 51px;
     height: 51px;
     background-color: #262E38;
+    border: transparent;
     border-radius: 100%;
     color: #7C8798;
     cursor: pointer;
     margin-top: 24px;
 }
-.rate-nums span:hover{
+.rate-nums button:hover{
     background-color: #7C8798;
     color: #FFFFFF;
 }
-.rate-nums span:active {
+.rate-nums button:focus {
   background-color: #FC7614;
 }
 
